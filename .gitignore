@@ -1,0 +1,75 @@
+# Environment variables
+.env
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+*.sln.ide
+
+# DotNet specific
+project.lock.json
+project.fragment.lock.json
+artifacts/
+project.json
+project.json.lock
+bin/
+obj/
+*.pdb
+*.dll
+*.exe
+*.app
+*.log
+
+# Visual Studio specific
+.vscode/
+.vs/
+*.code-workspace
+*.sln.metaproj
+*.csproj.user
+.vscode
+*.sln.cache
+.vscode-test/
+.vs/
+.vscode/
+
+# Rider specific
+.idea/
+.idea_modules/
+
+# Backup & Package Files
+*.bak
+*.swp
+*.zip
+*.nupkg
+*.snupkg
+
+# Logs
+*.log
+**/logs/
+logs/
+logs/*.log
+
+# Resharper files
+_ReSharper*/
+*.DotSettings.user
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# macOS files
+.DS_Store
+
+# Node.js modules (for projects using Node for front-end)
+node_modules/
+
+# Other files
+*.dbmdl
+*.jfm
+.DS_Store
+*.vscode-test
