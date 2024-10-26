@@ -1,6 +1,0 @@
-@CarBrand.Presentation.WebService_HostAddress = http://localhost:5176
-
-GET {{CarBrand.Presentation.WebService_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

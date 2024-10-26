@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\CarBrands.Models\CarBrands.Models.csproj" />
+    <ProjectReference Include="..\..\DataSource\CarBrands.DataSource\CarBrands.DataSource.csproj" />
+    <ProjectReference Include="..\..\DataSource\CarBrands.DataSource.PostgreSQL\CarBrands.DataSource.PostgreSQL.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

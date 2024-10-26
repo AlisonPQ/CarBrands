@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-    <Nullable>disable</Nullable>
+    <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
@@ -11,8 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\BusinessLogic\CarBrand.BusinessLogic\CarBrand.BusinessLogic.csproj" />
-    <ProjectReference Include="..\..\BusinessLogic\CarBrand.BusinessLogic.Impl\CarBrand.BusinessLogic.Impl.csproj" />
+    <ProjectReference Include="..\..\BusinessLogic\CarBrands.BusinessLogic\CarBrands.BusinessLogic.csproj" />
+    <ProjectReference Include="..\..\BusinessLogic\CarBrands.BusinessLogic.Impl\CarBrands.BusinessLogic.Impl.csproj" />
   </ItemGroup>
 
 </Project>

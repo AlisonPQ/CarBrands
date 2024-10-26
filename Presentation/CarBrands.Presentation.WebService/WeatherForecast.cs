@@ -1,4 +1,4 @@
-namespace CarBrand.Presentation.WebService;
+namespace CarBrands.Presentation.WebService;
 
 public class WeatherForecast
 {

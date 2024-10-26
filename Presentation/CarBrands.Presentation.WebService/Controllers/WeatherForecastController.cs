@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace CarBrand.Presentation.WebService.Controllers;
+namespace CarBrands.Presentation.WebService.Controllers;
 
 [ApiController]
 [Route("[controller]")]
