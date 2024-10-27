@@ -2,12 +2,13 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\CarBrands.Models\CarBrands.Models.csproj" />
+    <ProjectReference Include="..\CarBrands.DataSource\CarBrands.DataSource.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
   </PropertyGroup>
 
 </Project>

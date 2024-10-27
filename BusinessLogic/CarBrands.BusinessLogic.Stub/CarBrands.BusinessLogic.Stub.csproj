@@ -4,12 +4,13 @@
     <ProjectReference Include="..\..\CarBrands.Models\CarBrands.Models.csproj" />
     <ProjectReference Include="..\..\DataSource\CarBrands.DataSource\CarBrands.DataSource.csproj" />
     <ProjectReference Include="..\..\DataSource\CarBrands.DataSource.Memory\CarBrands.DataSource.Memory.csproj" />
+    <ProjectReference Include="..\CarBrands.BusinessLogic\CarBrands.BusinessLogic.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
   </PropertyGroup>
 
 </Project>
