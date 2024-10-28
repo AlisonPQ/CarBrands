@@ -4,7 +4,7 @@ namespace CarBrands.BusinessLogic
 {
     public interface ICarBrandService
     {
-        Task<IEnumerable<CarBrand>> GetAllCarBrands();
+        Task<List<CarBrand>> GetAllCarBrands();
         Task<CarBrand> GetCarBrandById(Guid id);
     }
 }

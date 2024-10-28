@@ -10,7 +10,7 @@ namespace CarBrands.BusinessLogic.Impl
         {
             _carBrandDAO = carBrandDAO;
         }
-        public Task<IEnumerable<CarBrand>> GetAllCarBrands()
+        public Task<List<CarBrand>> GetAllCarBrands()
         {
             return _carBrandDAO.GetAllCarBrands();
         }

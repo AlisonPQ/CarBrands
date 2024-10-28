@@ -11,7 +11,7 @@ namespace CarBrands.DataSource.PostgreSQL
             _context = context;
         }
 
-        public async Task<IEnumerable<CarBrand>> GetAllCarBrands()
+        public async Task<List<CarBrand>> GetAllCarBrands()
         {
             return await _context.CarBrands.ToListAsync();
         }

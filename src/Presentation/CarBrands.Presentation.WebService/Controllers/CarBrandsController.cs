@@ -22,7 +22,8 @@ namespace CarBrands.Presentation.WebService.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<CarBrand>> GetCarBrand(Guid id)
         {
-            return await _carBrandService.GetCarBrandById(id);
+            var carBrand = await _carBrandService.GetCarBrandById(id);
+            return Ok(carBrand);
         }
     }
 }

@@ -1,22 +1,23 @@
+using CarBrands.DataSource;
 using CarBrands.Models;
 
 namespace CarBrands.BusinessLogic.Stub
 {
     public class CarBrandService : ICarBrandService
     {
-        private readonly ICarBrandService _carBrandService;
-        public CarBrandService(ICarBrandService carBrandService)
+        private readonly ICarBrandDAO _carBrandDao;
+        public CarBrandService(ICarBrandDAO carBrandDao)
         {
-            _carBrandService = carBrandService;
+            _carBrandDao = carBrandDao;
         }
-        public Task<IEnumerable<CarBrand>> GetAllCarBrands()
+        public Task<List<CarBrand>> GetAllCarBrands()
         {
-            return _carBrandService.GetAllCarBrands();
+            return _carBrandDao.GetAllCarBrands();
         }
 
         public Task<CarBrand> GetCarBrandById(Guid id)
         {
-            return _carBrandService.GetCarBrandById(id);
+            return _carBrandDao.GetCarBrandById(id);
         }
     }
 }

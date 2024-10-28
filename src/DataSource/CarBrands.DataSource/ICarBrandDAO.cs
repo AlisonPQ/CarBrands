@@ -4,7 +4,7 @@ namespace CarBrands.DataSource
 {
     public interface ICarBrandDAO
     {
-        Task<IEnumerable<CarBrand>> GetAllCarBrands();
+        Task<List<CarBrand>> GetAllCarBrands();
         Task<CarBrand> GetCarBrandById(Guid id);
     }
 }
