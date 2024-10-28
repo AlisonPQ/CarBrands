@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - "8080:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Host=db;Port=5432;Database=carbrands;Username=carbrands;Password=carbrands
+    depends_on:
+      - db
+    networks:
+      - carbrands-network
+
+  db:
+    image: postgres:14 
+    restart: always
+    environment:
+      POSTGRES_DB: carbrands
+      POSTGRES_USER: carbrands
+      POSTGRES_PASSWORD: carbrands
+    ports:
+      - "5432:5432"
+    networks:
+      - carbrands-network
+
+networks:
+  carbrands-network:
+    driver: bridge
