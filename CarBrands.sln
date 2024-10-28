@@ -5,25 +5,39 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{D807AA98-80BF-4659-9028-4BD7DC963ABF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBrands.Presentation.WebService", "Presentation\CarBrands.Presentation.WebService\CarBrands.Presentation.WebService.csproj", "{698B546F-EF9A-48BB-9FB4-1E5C762F8995}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBrands.Presentation.WebService", "src\Presentation\CarBrands.Presentation.WebService\CarBrands.Presentation.WebService.csproj", "{698B546F-EF9A-48BB-9FB4-1E5C762F8995}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLogic", "BusinessLogic", "{1DFD3952-CF69-45F3-B5B0-A954EC0C2356}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBrands.BusinessLogic", "BusinessLogic\CarBrands.BusinessLogic\CarBrands.BusinessLogic.csproj", "{A38873EF-A725-478D-B6DB-CFC43077C248}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBrands.BusinessLogic", "src\BusinessLogic\CarBrands.BusinessLogic\CarBrands.BusinessLogic.csproj", "{A38873EF-A725-478D-B6DB-CFC43077C248}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBrands.BusinessLogic.Impl", "BusinessLogic\CarBrands.BusinessLogic.Impl\CarBrands.BusinessLogic.Impl.csproj", "{8D45DF8E-9804-4A85-9323-3818C90EF1C3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBrands.BusinessLogic.Impl", "src\BusinessLogic\CarBrands.BusinessLogic.Impl\CarBrands.BusinessLogic.Impl.csproj", "{8D45DF8E-9804-4A85-9323-3818C90EF1C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBrands.BusinessLogic.Stub", "BusinessLogic\CarBrands.BusinessLogic.Stub\CarBrands.BusinessLogic.Stub.csproj", "{E5D4D9A0-48A1-4DA4-AC8E-A9DE6162975A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBrands.BusinessLogic.Stub", "src\BusinessLogic\CarBrands.BusinessLogic.Stub\CarBrands.BusinessLogic.Stub.csproj", "{E5D4D9A0-48A1-4DA4-AC8E-A9DE6162975A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataSource", "DataSource", "{95DC9893-9066-400D-A03A-2DBD836E1184}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBrands.DataSource", "DataSource\CarBrands.DataSource\CarBrands.DataSource.csproj", "{5C9C49F1-9158-4653-9FBE-0CF4706DC5AB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBrands.DataSource", "src\DataSource\CarBrands.DataSource\CarBrands.DataSource.csproj", "{5C9C49F1-9158-4653-9FBE-0CF4706DC5AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBrands.DataSource.PostgreSQL", "DataSource\CarBrands.DataSource.PostgreSQL\CarBrands.DataSource.PostgreSQL.csproj", "{B667C1A4-7DF7-4A94-B6F0-5E625B876A0E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBrands.DataSource.PostgreSQL", "src\DataSource\CarBrands.DataSource.PostgreSQL\CarBrands.DataSource.PostgreSQL.csproj", "{B667C1A4-7DF7-4A94-B6F0-5E625B876A0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBrands.DataSource.Memory", "DataSource\CarBrands.DataSource.Memory\CarBrands.DataSource.Memory.csproj", "{007382B4-B00E-488E-B2FA-4D166439A21F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBrands.DataSource.Memory", "src\DataSource\CarBrands.DataSource.Memory\CarBrands.DataSource.Memory.csproj", "{007382B4-B00E-488E-B2FA-4D166439A21F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBrands.Models", "CarBrands.Models\CarBrands.Models.csproj", "{C719EBE9-EC4F-4F98-B425-7BB30FB2BC22}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBrands.Models", "src\CarBrands.Models\CarBrands.Models.csproj", "{C719EBE9-EC4F-4F98-B425-7BB30FB2BC22}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2E5F50E5-2823-46CE-AF0B-D9AB9D4FB0E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataSource", "DataSource", "{1EAC893E-AEAF-489C-8533-D7E3F46F5ACF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBrands.DataSource.Tests", "tests\DataSource\CarBrands.DataSource.Tests\CarBrands.DataSource.Tests.csproj", "{467279C1-837B-4E59-A7E2-ACD430D73803}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLogic", "BusinessLogic", "{F0BBBF34-9D99-41B9-BECE-78DBEF0F258C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBrands.BusinessLogic.Tests", "tests\BusinessLogic\CarBrands.BusinessLogic.Tests\CarBrands.BusinessLogic.Tests.csproj", "{F47F89C8-33AA-489B-B4C4-249C2250983A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{655658BE-F3F9-4ACD-810A-6CBC0FBBC49D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBrands.Presentation.WebService.Tests", "tests\Presentation\CarBrands.Presentation.WebService.Tests\CarBrands.Presentation.WebService.Tests.csproj", "{D12BE683-0E21-489F-85B6-0FE27F684BAA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -66,6 +80,18 @@ Global
 		{C719EBE9-EC4F-4F98-B425-7BB30FB2BC22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C719EBE9-EC4F-4F98-B425-7BB30FB2BC22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C719EBE9-EC4F-4F98-B425-7BB30FB2BC22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{467279C1-837B-4E59-A7E2-ACD430D73803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{467279C1-837B-4E59-A7E2-ACD430D73803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{467279C1-837B-4E59-A7E2-ACD430D73803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{467279C1-837B-4E59-A7E2-ACD430D73803}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F47F89C8-33AA-489B-B4C4-249C2250983A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F47F89C8-33AA-489B-B4C4-249C2250983A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F47F89C8-33AA-489B-B4C4-249C2250983A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F47F89C8-33AA-489B-B4C4-249C2250983A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D12BE683-0E21-489F-85B6-0FE27F684BAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D12BE683-0E21-489F-85B6-0FE27F684BAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D12BE683-0E21-489F-85B6-0FE27F684BAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D12BE683-0E21-489F-85B6-0FE27F684BAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{698B546F-EF9A-48BB-9FB4-1E5C762F8995} = {D807AA98-80BF-4659-9028-4BD7DC963ABF}
@@ -75,5 +101,11 @@ Global
 		{5C9C49F1-9158-4653-9FBE-0CF4706DC5AB} = {95DC9893-9066-400D-A03A-2DBD836E1184}
 		{B667C1A4-7DF7-4A94-B6F0-5E625B876A0E} = {95DC9893-9066-400D-A03A-2DBD836E1184}
 		{007382B4-B00E-488E-B2FA-4D166439A21F} = {95DC9893-9066-400D-A03A-2DBD836E1184}
+		{1EAC893E-AEAF-489C-8533-D7E3F46F5ACF} = {2E5F50E5-2823-46CE-AF0B-D9AB9D4FB0E0}
+		{467279C1-837B-4E59-A7E2-ACD430D73803} = {1EAC893E-AEAF-489C-8533-D7E3F46F5ACF}
+		{F0BBBF34-9D99-41B9-BECE-78DBEF0F258C} = {2E5F50E5-2823-46CE-AF0B-D9AB9D4FB0E0}
+		{F47F89C8-33AA-489B-B4C4-249C2250983A} = {F0BBBF34-9D99-41B9-BECE-78DBEF0F258C}
+		{655658BE-F3F9-4ACD-810A-6CBC0FBBC49D} = {2E5F50E5-2823-46CE-AF0B-D9AB9D4FB0E0}
+		{D12BE683-0E21-489F-85B6-0FE27F684BAA} = {655658BE-F3F9-4ACD-810A-6CBC0FBBC49D}
 	EndGlobalSection
 EndGlobal

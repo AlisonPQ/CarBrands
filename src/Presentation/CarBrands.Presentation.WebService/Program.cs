@@ -15,7 +15,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<DataContext>(
     opt => {
-        opt.UseNpgsql(builder.Configuration.GetConnectionString("PostgresConnection")); 
+        opt.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")); 
     }
 );
 builder.Services.AddScoped<ICarBrandDAO, CarBrandDAO>();
