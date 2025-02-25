@@ -34,19 +34,25 @@ To get started with the Car Brands API, follow the commands below to set up your
 
 Navigate to the project directory:
 
-`cd CarBrands`
+``` bash
+cd CarBrands
+```
 
 ### Developer Environment
 
 Start the developer environment with Docker Compose:
 
-`docker-compose -f docker-compose.yml -f docker-compose.override.yml up --build`
+``` bash
+docker-compose -f docker-compose.yml -f docker-compose.override.yml up --build
+```
 
 ### Testing Environment
 
 Start the testing environment with Docker Compose:
 
-`docker-compose up --build`
+``` bash
+docker-compose up --build
+```
 
 ## Usage
 
@@ -54,11 +60,15 @@ I recommend testing these API endpoints using Postman:
 
 - Get a list of car brands:
   
-  `GET http://localhost:8080/api/carbrands`
+  ``` bash
+  GET http://localhost:8080/api/carbrands
+  ```
 
 - Get a specific car brand by ID:
   
-  `GET http://localhost:8080/api/carbrands/<Id>`
+  ``` bash
+  GET http://localhost:8080/api/carbrands/<Id>
+  ```
   
   (Replace <Id> with a GUID. You can obtain a valid ID by executing the first endpoint.)
   
@@ -69,4 +79,6 @@ Alternatively, you can visit the API documentation at:
 
 To run tests, navigate to `/tests` folder and run:
 
-`dotnet test`
+``` bash
+dotnet test
+```
